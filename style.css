@@ -1,0 +1,13 @@
+body {
+    background-color: #e6e6e6;
+    overflow:auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.social > a> img{
+    width: 60px;
+    margin: 10px;
+    padding: 10px;
+}
+footer{
+    margin-top: 60px;
+}

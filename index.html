@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, 
+				maximum-scale=1, minimum-scale=1, 
+				width=device-width">
+	<link rel="stylesheet" href="blogstyle.css">
+	<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+	<title>CipherVenom -Blog</title>
+</head>
+
+<body>
+	<header class="bg-dark text-white p-3" id="head">
+		<h4 style="display: inline-block;">ℂ𝕚𝕡𝕙𝕖𝕣𝕍𝕖𝕟𝕠𝕞 Blogs</h4>
+		<nav class="navbar navbar-expand navbar-dark bg-dark navi">
+			<div class="container">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="cv.html">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#" id="createPostBtn">Create Post</a></li>
+					<li class="nav-item"><a class="nav-link" href="tel: +919994021042">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main class="post-container">
+
+
+		<div id="createPostModal" class="modal">
+			<div class="modal-content">
+				<span class="close" id="closeModal">×</span>
+				<h2>Create a New Post</h2>
+				<form id="postForm">
+					<div class="upper">
+						<div class="title">
+							<label class="postheading" for="postTitle">
+								Title
+							</label>
+							<input type="text" class="postTitle" id="postTitle" name="postTitle" autocomplete="off"
+								required>
+						</div>
+						<div class="category1">
+							<label class="postheading" for="postCategory">
+								Category
+							</label>
+							<input type="text" class="postCategory" id="postCategory" name="postCategory"
+								autocomplete="off" required>
+						</div>
+					</div>
+
+					<label class="postheading" for="postDescription">
+						Description
+					</label>
+					<textarea class="postDescription" id="postDescription" name="postDescription" autocomplete="off"
+						required>
+					</textarea>
+
+					<button type="submit" id="postSubmitBtn" class="postSubmitBtn">Post</button>
+				</form>
+			</div>
+		</div>
+
+		<!-- Detail Modal -->
+		<div id="postDetailModal" class="modal">
+			<div class="modal-content">
+				<span class="close" id="closeDetailModal">
+
+				</span>
+				<h1 id="detailTitle"></h1>
+				<span id="detailDate"></span>
+				<p id="detailDescription"></p>
+			</div>
+		</div>
+
+		<div id="postCreatedMessage" class="post-message">
+			Post created successfully!
+		</div>
+
+	</main>
+
+	<footer class="bg-dark text-white py-4">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-md-6">
+					<p class="description">Unleash your potential</p>
+				</div>
+				<div class="col-md-6">
+					<p class="copyright">© 2024 CipherVenom</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- JavaScript file linked -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="blogscript.js"></script>
+</body>
+
+</html>
