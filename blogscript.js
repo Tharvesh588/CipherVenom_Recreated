@@ -1,3 +1,5 @@
+alert("Hello There!. This Web page not yet completed,visit Other pages by menu .Thank you")
+
 document.addEventListener('DOMContentLoaded', function () { 
 	const createPostBtn = 
 		document.getElementById('createPostBtn'); 
