@@ -5,14 +5,13 @@
   
   // Your web app's Firebase configuration
   const firebaseConfig = {
-    apiKey: "AIzaSyCyoZOZC-u9KNumXybvegpOKz5XvGhyNns",
-    authDomain: "chatapp-1042.firebaseapp.com",
-    databaseURL: "https://chatapp-1042-default-rtdb.firebaseio.com",
-    projectId: "chatapp-1042",
-    storageBucket: "chatapp-1042.appspot.com",
-    messagingSenderId: "949568423483",
-    appId: "1:949568423483:web:5bd6a0e07dfef848bf3e1e",
-    measurementId: "G-PMZJY43K7Z"
+	apiKey: "AIzaSyBC8Hvle5hBT3DSik9Rnag7cRSUTLTsFmk",
+	authDomain: "ciphervenom-26-06-2024.firebaseapp.com",
+	projectId: "ciphervenom-26-06-2024",
+	storageBucket: "ciphervenom-26-06-2024.appspot.com",
+	messagingSenderId: "244596885169",
+	appId: "1:244596885169:web:9c7de3ffe8943817584490",
+	measurementId: "G-P6GMF46LFR"
   };
 
   // Initialize Firebase
