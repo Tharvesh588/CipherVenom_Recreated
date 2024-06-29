@@ -11,7 +11,7 @@
 
 	<title>CipherVenom</title>
 </head>
-<!--init Firebase DB-->
+
 
 
   
@@ -29,7 +29,6 @@
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item"><a class="nav-link" href="/">Home</a></li>
 					<li class="nav-item"><a class="nav-link" href="cv.html">About</a></li>
-					<li class="nav-item"><a class="nav-link" href="#" id="createPostBtn">Create Post</a></li>
 					<li class="nav-item"><a class="nav-link" href="tel: +919994021042">Contact</a></li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="projectsDropdown" role="button"
@@ -45,60 +44,42 @@
 		</nav>
 	</header>
 
-	<main class="post-container">
-
-
-		<div id="createPostModal" class="modal">
-			<div class="modal-content">
-				<span class="close" id="closeModal">×</span>
-				<h2>Create a New Post</h2>
-				<form id="postForm">
-					<div class="upper">
-						<div class="title">
-							<label class="postheading" for="postTitle">
-								Title
-							</label>
-							<input type="text" class="postTitle" id="postTitle" name="postTitle" autocomplete="off"
-								required>
-						</div>
-						<div class="category1">
-							<label class="postheading" for="postCategory">
-								Category
-							</label>
-							<input type="text" class="postCategory" id="postCategory" name="postCategory"
-								autocomplete="off" required>
-						</div>
-					</div>
-
-					<label class="postheading" for="postDescription">
-						Description
-					</label>
-					<textarea class="postDescription" id="postDescription" name="postDescription" autocomplete="off"
-						required>
-					</textarea>
-
-					<button type="submit" id="postSubmitBtn" class="postSubmitBtn">Post</button>
-				</form>
+	<main>
+		<section id="home">
+		  <div class="container">
+			<h2>Introduction </h2>
+			<div class="video">
+			  <iframe width="450" height="225" src="https://www.youtube.com/embed/3SyHScC96Ws?si=vGtCX82WFiYHPtY6" frameborder="0"></iframe>
+			  <p>Description of the video goes here.</p>
 			</div>
-		</div>
-
-		<!-- Detail Modal -->
-		<div id="postDetailModal" class="modal">
-			<div class="modal-content">
-				<span class="close" id="closeDetailModal">
-
-				</span>
-				<h1 id="detailTitle"></h1>
-				<span id="detailDate"></span>
-				<p id="detailDescription"></p>
+			<h2>Latest Videos</h2>
+			<div class="video-list">
+	
+			  <!-- <div class="video-thumbnail">
+				<a href="video.html">
+				  <img src="https://ihitthebutton.com/wp-content/uploads/2023/04/youtube-thumbnail-size-1.jpg" alt="Video Thumbnail">
+				  <p>Video Title</p>
+				</a>
+			  </div>
+	
+			  <div class="video-thumbnail">
+				<a href="video.html">
+				  <img src="https://ihitthebutton.com/wp-content/uploads/2023/04/youtube-thumbnail-size-1.jpg" alt="Video Thumbnail">
+				  <p>Video Title</p>
+				</a>
+			  </div>
+	
+			  <div class="video-thumbnail">
+				<a href="video.html">
+				  <img src="https://ihitthebutton.com/wp-content/uploads/2023/04/youtube-thumbnail-size-1.jpg" alt="Video Thumbnail">
+				  <p>Video Title</p>
+				</a>
+			  </div> -->
+			  <!-- Add more video thumbnails as needed -->
 			</div>
-		</div>
-
-		<div id="postCreatedMessage" class="post-message">
-			Post created successfully!
-		</div>
-
-	</main>
+		  </div>
+		</section>
+	  </main>
 
 	<footer class="bg-dark text-white py-4">
 		<div class="container text-center">
