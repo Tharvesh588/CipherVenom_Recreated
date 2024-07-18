@@ -6,20 +6,57 @@
 				maximum-scale=1, minimum-scale=1, 
 				width=device-width">
 	<link rel="stylesheet" href="blogstyle.css">
+	<style>
+		.gallery {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			padding: 20px;
+		}
+
+		.gallery img {
+			width: 200px;
+			height: auto;
+			margin: 10px;
+		}
+
+		.explore-btn {
+			display: block;
+			margin: 20px auto;
+			padding: 10px 20px;
+			font-size: 16px;
+			color: white;
+			background-color: #007bff;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: background-color 0.3s;
+		}
+
+		.explore-btn:hover {
+			background-color: #0056b3;
+		}
+
+		@media (max-width: 768px) {
+			.gallery img {
+				width: 100%;
+			}
+		}
+	</style>
 	<link rel="shortcut icon" href="logo.png" type="image/x-icon">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-	<title>CipherVenom</title>
+	<title>𝕋𝕙𝕒𝕣𝕧𝕖𝕤𝕙 ℕ𝕖𝕩𝕦𝕤</title>
 </head>
 
 
 
-  
+
 <body>
 	<header class="bg-dark text-white p-3" id="head">
 		<nav class="navbar navbar-expand-lg navbar-dark container">
-			<a class="navbar-brand" href="#">
-				<h3>ℂ𝕚𝕡𝕙𝕖𝕣𝕍𝕖𝕟𝕠𝕞</h3>
+			<a class="navbar-brand" href="https://tharvesh-nexus.blogspot.com">
+				<h3>𝕋𝕙𝕒𝕣𝕧𝕖𝕤𝕙 ℕ𝕖𝕩𝕦𝕤</h3>
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
 				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,57 +84,66 @@
 
 	<main>
 		<section id="home">
-		  <div class="container">
-			<h2>CipherVenom Present</h2>
-			<div class="video">
-			  <video src="src/YouTube Logo Intro.mp4" controls="false" autoplay="autoplay" style="width:50%; height:50%"></video>
-			  <p>YouTube logo Reveal</p>
-			</div>
-			<h2>Latest Videos</h2>
-			<div class="video-list">
-	
-			   <div class="video-thumbnail">
-				<a href="https://www.youtube.com/embed/lU7o6IAUEMo">
-					<embed src="https://www.youtube.com/embed/lU7o6IAUEMo" controls="false" autoplay="true" style="width:100%; height:90%""></embed>
-				  <p>Channel Logo Reveal</p>
-				</a>
-			  </div>
-	
-			<!--  <div class="video-thumbnail">
+			<div class="container">
+				<h2>Tharvesh-Nexus Present</h2>
+				<div class="video">
+					<video src="src/nit.mp4" controls="false" autoplay="autoplay" style="width:50%; height:50%"></video>
+					<p>NIT karaikal with My buddy's</p>
+				</div>
+				<h2>Gallery</h2>
+				<div class="gallery">
+					<!-- Images will go here -->
+					<img src="src/posts/13.jpg" alt="Image 1">
+					<img src="src/posts/6.jpeg" alt="Image 2">
+					<img src="src/posts/8.jpeg" alt="Image 3">
+					<img src="src/posts/11.jpeg" alt="Image 4">
+					<img src="src/posts/9.jpeg" alt="Image 6">
+				</div>
+				<a href=""><button class="explore-btn" onclick="alert('Web Page is under Construction')">Explore More</button></a>					
+				
+
+
+				<!--
+				 <div class="video-list">
+				  <div class="video-thumbnail">
 				<a href="video.html">
 				  <img src="https://ihitthebutton.com/wp-content/uploads/2023/04/youtube-thumbnail-size-1.jpg" alt="Video Thumbnail">
 				  <p>Video Title</p>
 				</a>
 			  </div>
-	
+
 			  <div class="video-thumbnail">
 				<a href="video.html">
 				  <img src="https://ihitthebutton.com/wp-content/uploads/2023/04/youtube-thumbnail-size-1.jpg" alt="Video Thumbnail">
 				  <p>Video Title</p>
 				</a>
 			  </div> -->
-			  <!-- Add more video thumbnails as needed -->
+				<!-- Add more video thumbnails as needed -->
 			</div>
-		  </div>
 		</section>
 
 		<div id="Blog">
 			<div class="container">
-			  <h2>Blog</h2>
-			  <iframe src="https://weblog492.wordpress.com/" frameborder="0" width="100%" height="750px"></iframe>
+				<h2>Blog</h2>
+				<iframe src="https://tharvesh-nexus.blogspot.com" frameborder="0" width="100%" height="750px"></iframe>
 			</div>
 		</div>
-	  </main>
+	</main>
 
 
 	<footer class="bg-dark text-white py-4">
 		<div class="container text-center">
 			<div class="row">
 				<div class="col-md-6">
-					<p class="description">Unleash your potential</p>
+					<p class="description">Greetings from Tharvesh Nexus, the ultimate resource for tying concepts,
+						tales, and experiences together. This blog, which is curated by Tharvesh Muhaideen, explores a
+						wide range of subjects from technological advancements to personal development. Join the
+						adventure to find enlightening articles, stimulating conversations, and a knowledge-sharing
+						community that appreciates participation. Together, let us connect, grow, and learn at Tharvesh
+						Nexus!</p>
 				</div>
 				<div class="col-md-6">
-					<p class="copyright">© 2024 CipherVenom</p>
+					<p class="copyright">Tharvesh Nexus Since 2024</p>
 				</div>
 			</div>
 		</div>
